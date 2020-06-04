@@ -1,0 +1,40 @@
+:: IP Logger In Bat - AntiBots / DigitalSociopath.
+:: Simple All Logs Output In (IPLogs.txt) - Press "1" To See Logs
+
+
+@echo off
+title IP Logs - V4  // User: %USERNAME%  //  Time: %TIME%  //  Date: %DATE%
+mode con lines=24 cols=78
+:reset
+color %ran%
+cls
+echo.
+echo         8888888               888                                
+echo           888                 888                                
+echo           888                 888                                
+echo           888   88888b.       888      .d88b.   .d88b.  .d8888b  
+echo           888   888 "88b      888     d88""88b d88P"88b 88K      
+echo           888   888  888      888     888  888 888  888 "Y8888b. 
+echo           888   888 d88P      888     Y88..88P Y88b 888      X88 
+echo         8888888 88888P"       88888888 "Y88P"   "Y88888  88888P' 
+echo                 888                                 888          
+echo                 888                            Y8b d88P          
+echo                 888                             "Y88P"   
+echo.
+echo       :[1;96m^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>:[1;92m
+echo       :[1;96m^<^>[40;33m Press 1 to open IP Logs Database :[1;96m ~[40;33m By DigitalSociopath  :[1;96m^<^>
+echo       :[1;96m^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<:[1;92m
+echo.:[1;96m
+set /p name=:[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m [40;36mPRESS 1 OR ENTER TARGET NAME:[40;31m 
+echo.
+if %name% == 1 goto open
+set /p IP=:[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m [40;36mENTER %name%'s IP:[40;31m 
+echo -  %name%  //  %IP%  -  %date% %time%>> IPLogs.txt
+echo.
+echo :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;96m:[1;96m{+}- [40;33m%name%'s Info Saved in Your Database :[1;96m-{+}
+echo :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;96m:[1;96m{+}- [40;33mPress Any Key to Restart IP Logs :[1;96m-{+}
+pause >nul
+goto reset
+:open
+cls
+start IPLogs.txt
