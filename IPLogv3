@@ -1,4 +1,4 @@
-:: IP Logger In Bat - AntiBots / DigitalSociopath.
+:: IP Logger In Bat - AntiBots / : Ecstasy.#0001..
 :: Simple All Logs Output In (IPLogs.txt) - Press "1" To See Logs
 
 
@@ -22,7 +22,7 @@ echo                 888                            Y8b d88P
 echo                 888                             "Y88P"   
 echo.
 echo       :[1;96m^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>^>:[1;92m
-echo       :[1;96m^<^>[40;33m Press 1 to open IP Logs Database :[1;96m ~[40;33m By DigitalSociopath  :[1;96m^<^>
+echo       :[1;96m^<^>[40;33m Press 1 to open IP Logs Database :[1;96m ~[40;33m By : Ecstasy.#0001  :[1;96m^<^>
 echo       :[1;96m^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<^<:[1;92m
 echo.:[1;96m
 set /p name=:[1;92m :[1;92m :[1;92m :[1;92m :[1;92m :[1;92m [40;36mPRESS 1 OR ENTER TARGET NAME:[40;31m 
